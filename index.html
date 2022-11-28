@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michał Myszka | FrontEnd Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Poppins:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/main.min.css">
+    <script src="https://kit.fontawesome.com/2d690f9547.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="main-page">
+
+    <header class="header section" id="home">
+        <nav class="nav-desktop">
+
+            <div class="wrapper">
+                <div class="nav-desktop__box">
+                    <div class="nav-desktop__logo"></div>
+
+                    <div class="nav-desktop__items">
+                        <a href="#home" class="nav-desktop__items-item active-nav-item">Home</a>
+                        <a href="#about" class="nav-desktop__items-item">O mnie</a>
+                        <a href="#offer" class="nav-desktop__items-item">Oferta</a>
+                        <a href="#contact" class="nav-desktop__items-item">Kontakt</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+        <nav class="nav-mobile">
+            <button class="burger-btn">
+                <div class="burger-btn__box">
+                    <div class="burger-btn__box-bar burger-btn__box-first"></div>
+                    <div class="burger-btn__box-bar burger-btn__box-seond"></div>
+                    <div class="burger-btn__box-bar burger-btn__box-third"></div>
+                </div>
+            </button>
+            <div class="nav-mobile__box">
+                <a href="#home" class="nav-mobile__box-item">Home</a>
+                <a href="#about" class="nav-mobile__box-item">O mnie</a>
+                <a href="#offer" class="nav-mobile__box-item">Oferta</a>
+                <a href="#contact" class="nav-mobile__box-item">Kontakt</a>
+            </div>
+        </nav>
+
+
+
+        <div class="wrapper">
+            <div class="header__content">
+                <div class="circle-component first-circle"></div>
+                <div class="header__text">
+                    <h2 class="header__welcome" data-aos="fade-down" data-aos-delay="50">Cześć, nazywam się</h2>
+                    <h1 class="header__main-text" data-aos="fade-down" data-aos-delay="150">Michał Myszka</h1>
+                    <h2 class="header__second-text" data-aos="fade-down" data-aos-delay="250">Zajmuje się tworzeniem
+                        stron internetowych</h2>
+                    <p class="header__description" data-aos="fade-down" data-aos-delay="350">Jestem FrontEnd
+                        developerem, który jest tutaj, aby pomóc Twojej firmie zaistnieć w internecie. Stworzę dla
+                        Ciebie Twoją własną stronę internetową. Sprawdź, co potrafię lub co mogę zaoferować i
+                        <a href="#contact" class="header__description--special">skontaktuj się</a> ze mną!
+                    </p>
+                    <a href="#offer" data-aos="fade-down" data-aos-delay="500">
+                        <button class="header__check-offer">Zobacz moją ofertę!</button>
+                    </a>
+
+
+                </div>
+                <div class="header__decoration">
+                    <img src="dist/img/Component 8 – 1.png" alt="">
+                </div>
+            </div>
+
+            <div class="arrow-icon__box">
+                <a href="#about" class="arrow-icon__box--link">
+                    <svg class="bounce-top" xmlns="http://www.w3.org/2000/svg" width="22" height="15"
+                        viewBox="0 0 22.103 13.173">
+                        <path id="Path_1" data-name="Path 1" d="M934.491,496.792l9.991,9.991,9.991-9.991"
+                            transform="translate(-933.43 -495.731)" fill="none" stroke="#fff" stroke-width="3" />
+                    </svg>
+                </a>
+            </div>
+
+        </div>
+    </header>
+
+    <section class="section section-padding about" id="about">
+        <div class="wrapper">
+            <div class="title-box">
+                <h2 class="section-heading">o mnie</h2>
+            </div>
+
+            <div class="about__box">
+                <div class="about__box-img">
+                    <img src="dist/img/profile.png" alt="Zdjęcie autora strony" class="about__box-img--item">
+                </div>
+                <div class="about__box-text">
+                    <p class="about__box-text--item">
+                        Nazywam się Michał Myszka. Moją pasją od kilku lat jest tworzenie i projektowanie stron
+                        internetowych. Na początku miały to być gry, ale po czasie stwierdziłem, że największą
+                        przyjemność sprawia mi pisanie stron internetowych.
+                    </p>
+                    <p class="about__box-text--item">Zawsze staram się w 100% odwzorować wizję klienta, spełnić jego
+                        oczekiwania co do strony.
+                        Najbardziej zależy mi na zadowoleniu z moich usług, więc zachęcam do <a href="#offer"
+                            class="about__box-text--special">sprawdzenia mojej oferty</a>.
+                    </p>
+                    <div class="circle-component second-circle"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="offer section-padding section" id="offer">
+        <div class="wrapper">
+            <div class="title-box">
+                <h2 class="section-heading">co oferuję?</h2>
+            </div>
+
+            <div class="offer__box">
+                <div class="offer__card" data-aos="zoom-in">
+                    <p class="offer__card-icon"><i class="fa-solid fa-code"></i></p>
+                    <h2 class="offer__card-tittle">Strona napisana od podstaw</h2>
+                    <p class="offer__card-description">
+                        Strony napisane przeze mnie są pisane od 0, bardzo rzadko korzystam z gotowych rozwiązań. Dzięki
+                        temu mam pełną kontrolę nad tym, co się dzieje "pod maską".
+                    </p>
+                </div>
+
+                <div class="offer__card" data-aos="zoom-in" data-aos-delay="100">
+                    <p class="offer__card-icon"><i class="fa-solid fa-arrow-up-right-dots"></i></p>
+                    <h2 class="offer__card-tittle">Pozycja strony</h2>
+                    <p class="offer__card-description">
+                        Zajmuje się również pozycjonowaniem strony w wyszukiwaniach google, dzięki czemu wyświetla się
+                        ona “wyżej” Twoim przyszłym klientom. :)
+                    </p>
+                </div>
+
+                <div class="offer__card" data-aos="zoom-in" data-aos-delay="200">
+                    <p class="offer__card-icon"><i class="fa-solid fa-handshake-angle"></i></p>
+                    <h2 class="offer__card-tittle">Wsparcie</h2>
+                    <p class="offer__card-description">
+                        Nasze drogi nie rozchodzą się na zawsze. Jeśli potrzebowałbyś pomocy przy stronie to zawsze
+                        posiadasz do mnie numer telefonu, daj znać, co jest nie tak i pomogę Ci.
+                    </p>
+                </div>
+
+                <div class="circle-component third-circle"></div>
+                <div class="circle-component fourth-circle"></div>
+                <div class="circle-component six-circle"></div>
+
+                <div class="offer__card" data-aos="zoom-in" data-aos-delay="300">
+                    <p class="offer__card-icon"><i class="fa-solid fa-mobile-screen-button"></i></p>
+                    <h2 class="offer__card-tittle">Dostosowanie pod wersje mobilne</h2>
+                    <p class="offer__card-description">Dostosowuje każdą stronę pod każdą rozdzielczość. Dzięki temu
+                        Twoja strona będzie się dobrze prezentować na każdym urządzeniu.
+                    </p>
+                </div>
+
+                <div class="offer__card" data-aos="zoom-in" data-aos-delay="400">
+                    <p class="offer__card-icon"><i class="fa-solid fa-cloud-arrow-up"></i></p>
+                    <h2 class="offer__card-tittle">Zadbanie o kwestie hostingu</h2>
+                    <p class="offer__card-description">Jeśli nie posiadasz domeny i nie wiesz, jak się tym samemu zająć
+                        nie przejmuj się tym. Zadbam również o wrzucenie strony do sieci i pokażę co z czym się je :D.
+                    </p>
+                </div>
+
+                <div class="offer__card" data-aos="zoom-in" data-aos-delay="500">
+                    <p class="offer__card-icon"><i class="fa-regular fa-face-smile"></i></p>
+                    <h2 class="offer__card-tittle">Dbałość o zadowolenie klienta</h2>
+                    <p class="offer__card-description">Dbam o każdy szczegół, przed przystąpieniem do pracy pokazuje
+                        projekt graficzny, który możesz modyfikować wedle własnego uznania.
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section id="contact" class="contact section-padding section">
+        <div class="wrapper">
+            <div class="title-box">
+                <h2 class="section-heading">kontakt</h2>
+            </div>
+
+            <div class="contact__box">
+                <div class="contact__info">
+                    <h2 class="contact__info-tittle">skontaktuj się ze mną!</h2>
+                    <p class="contact__info-description">
+                        Masz jakieś pytania lub coś nie jest jasne? Napisz do mnie wiadomość za pomocą formularza po
+                        prawej stronie lub skontaktuj się ze mną telefonicznie pod numerem <a
+                            class="contact__info-description--number" href="tel:+48516633968">516 633 968</a>.
+                    </p>
+                    <p class="contact__info-privacy-policy">Wypełnienie formularza oznacza, że podane w nim dane osobowe będą przetwarzane w celu udzielenia odpowiedzi. Dowiedz się, <a href="privacy_policy.html" class="contact__info-privacy-policy--link">w jaki sposób są przetwarzane Twoje dane</a>.</p>
+                    <div class="contact__info-icons">
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/micha%C5%82-myszka-9a6200256/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/myszkafrontend"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="https://www.messenger.com/t/100008240046356"><i
+                                class="fa-brands fa-square-facebook"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact__line"></div>
+
+                <form action="" class="contact__form">
+                    <div class="contact__form-box">
+                        <label for="title">Tytuł:</label>
+                        <input type="text" id="title" name="title"  placeholder="Tytuł nie może być krótszy niż 5 znaków.">
+                        <p class="contact__form-box--error-text">error</p>
+                    </div>
+
+                    <div class="contact__form-box ">
+                        <label for="mail">E-mail:</label>
+                        <input type="email" id="mail" name="mail" placeholder="Proszę podać poprawny adres e-mail.">
+                        <p class="contact__form-box--error-text">error</p>
+                    </div>
+
+                    <div class="contact__form-box">
+                        <label for="msg">Wiadomość:</label>
+                        <textarea name="msg" id="msg" placeholder="Wiadomość nie może być krótsza niż 15 znaków."></textarea>
+                        <p class="contact__form-box--error-text">error</p>
+                    </div>
+
+                    <button class="contact__form-btn">Wyślij wiadomość</button>
+                </form>
+
+            </div>
+    </section>
+
+    <div class="alert">
+        <div class="wrapper">
+            <div class="alert-box">
+                <p class="alert-text">Moja strona korzysta z plików cookies w celu zebrania danych dotyczących ruchu na stronie. Więcej informacji znajdziesz w <a class="alert-link" href="privacy_policy.html">polityce prywatności.</a></p>
+        <button class="alert-btn">Akceptuj</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <hr class="footer__hr">
+        <div class="wrapper">
+            <p class="footer__text">Michał Myszka | FrontEnd Developer &copy; <span class="footer__year"></span></p>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="dist/js/aos_settings.min.js"></script>
+    <script src="dist/js/main.min.js"></script>
+</body>
+
+</html>
