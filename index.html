@@ -3,9 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Michał Myszka | FrontEnd Developer</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Wykonam dla Ciebie Twoją wymarzoną stronę internetową. Zachęcam do sprawdzenia mojej oferty jeśli zależy Ci na dobrze zrobionej stronie internetowej.">
+    <meta name="og:description" content="Michał Myszka | Freelancer FrontEnd Developer, który stworzy dla Ciebie strone internetową">
+    <meta name="og:title" content="Michał Myszka | FrontEnd Developer">
+    <meta name="og:url" content="www.myszkafrontend.pl">
+    <meta name="keywords" content="Michał Myszka, FrontEnd Developer, Strona Internetowa, oferta strony www, strony www">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Poppins:wght@400;700&display=swap"
@@ -35,7 +40,7 @@
         </nav>
         
         <nav class="nav-mobile">
-            <button class="burger-btn">
+            <button class="burger-btn" aria-label="Hamburger Menu" type="button">
                 <div class="burger-btn__box">
                     <div class="burger-btn__box-bar burger-btn__box-first"></div>
                     <div class="burger-btn__box-bar burger-btn__box-seond"></div>
@@ -77,7 +82,7 @@
             </div>
 
             <div class="arrow-icon__box">
-                <a href="#about" class="arrow-icon__box--link">
+                <a href="#about" class="arrow-icon__box--link" aria-label="Link prowadzący do sekcji 'O mnie' "">
                     <svg class="bounce-top" xmlns="http://www.w3.org/2000/svg" width="22" height="15"
                         viewBox="0 0 22.103 13.173">
                         <path id="Path_1" data-name="Path 1" d="M934.491,496.792l9.991,9.991,9.991-9.991"
@@ -97,7 +102,7 @@
 
             <div class="about__box">
                 <div class="about__box-img">
-                    <img src="dist/img/profile.png" alt="Zdjęcie autora strony" class="about__box-img--item">
+                    <img src="dist/img/profilephoto.jpg" alt="Zdjęcie autora strony" class="about__box-img--item">
                 </div>
                 <div class="about__box-text">
                     <p class="about__box-text--item">
@@ -192,18 +197,17 @@
                 <div class="contact__info">
                     <h2 class="contact__info-tittle">skontaktuj się ze mną!</h2>
                     <p class="contact__info-description">
-                        Masz jakieś pytania lub coś nie jest jasne? Napisz do mnie wiadomość za pomocą formularza po
-                        prawej stronie lub skontaktuj się ze mną telefonicznie pod numerem <a
+                        Masz jakieś pytania lub coś nie jest jasne? Napisz do mnie wiadomość za pomocą formularza lub skontaktuj się ze mną telefonicznie pod numerem <a
                             class="contact__info-description--number" href="tel:+48516633968">516 633 968</a>.
                     </p>
-                    <p class="contact__info-privacy-policy">Wypełnienie formularza oznacza, że podane w nim dane osobowe będą przetwarzane w celu udzielenia odpowiedzi. Dowiedz się, <a href="privacy_policy.html" class="contact__info-privacy-policy--link">w jaki sposób są przetwarzane Twoje dane</a>.</p>
+                    <p class="contact__info-privacy-policy">Wypełnienie formularza oznacza, że podane w nim dane osobowe będą przetwarzane w celu udzielenia odpowiedzi. Dowiedz się, <a href="privacy_policy.html" class="contact__info-privacy-policy--link" >w jaki sposób są przetwarzane Twoje dane</a>.</p>
                     <div class="contact__info-icons">
-                        <a href=""><i class="fa-brands fa-instagram"></i></a>
-                        <a href="https://www.linkedin.com/in/micha%C5%82-myszka-9a6200256/"><i
+                        <a href="https://www.instagram.com/myszkafrontend/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/micha%C5%82-myszka-9a6200256/" target="_blank"><i
                                 class="fa-brands fa-linkedin"></i></a>
-                        <a href="https://github.com/myszkafrontend"><i class="fa-brands fa-square-github"></i></a>
-                        <a href="https://www.messenger.com/t/100008240046356"><i
-                                class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://github.com/myszkafrontend" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="https://www.messenger.com/t/100008240046356" target="_blank"><i
+                                class="fa-brands fa-square-facebook" ></i></a>
                     </div>
                 </div>
 
@@ -237,7 +241,7 @@
     <div class="alert">
         <div class="wrapper">
             <div class="alert-box">
-                <p class="alert-text">Moja strona korzysta z plików cookies w celu zebrania danych dotyczących ruchu na stronie. Więcej informacji znajdziesz w <a class="alert-link" href="privacy_policy.html">polityce prywatności.</a></p>
+                <p class="alert-text">Moja strona korzysta z plików cookies w celu zebrania danych dotyczących ruchu na stronie. Więcej informacji znajdziesz w <a class="alert-link" href="privacy_policy.html" rel="canonical">polityce prywatności.</a></p>
         <button class="alert-btn">Akceptuj</button>
             </div>
         </div>
